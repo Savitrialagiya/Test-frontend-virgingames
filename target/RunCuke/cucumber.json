@@ -1,0 +1,172 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5515033800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "verify that Online slots tab is clickable",
+        "description": "",
+        "id": "virgin-games-test;verify-that-online-slots-tab-is-clickable",
+        "after": [
+          {
+            "result": {
+              "duration": 697755600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 111807700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "VirginStepdef.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2154925900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I accept cookies",
+            "match": {
+              "location": "VirginStepdef.iAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 178520900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on online slots tab from top tab menu",
+            "match": {
+              "location": "VirginStepdef.iClickOnOnlineSlotsTabFromTopTabMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1017319900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify \u0027Play Online Slots at Virgin Games\u0027 text",
+            "match": {
+              "location": "VirginStepdef.iVerifyPlayOnlineSlotsAtVirginGamesText()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3341927100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "verify that Online Bingo tab is clickable",
+        "description": "",
+        "id": "virgin-games-test;verify-that-online-bingo-tab-is-clickable",
+        "after": [
+          {
+            "result": {
+              "duration": 730665000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 52300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "VirginStepdef.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2152344900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I accept cookies",
+            "match": {
+              "location": "VirginStepdef.iAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 107744100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on online Bingo tab from top tab menu",
+            "match": {
+              "location": "VirginStepdef.iClickOnOnlineBingoTabFromTopTabMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 524748200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I verify \u0027What is the best online bingo site?\u0027 text",
+            "match": {
+              "location": "VirginStepdef.iVerifyWhatIsTheBestOnlineBingoSiteText()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Virgin games Test",
+    "description": "As a user I would like to check online slots tab is clickable in virgin games website",
+    "id": "virgin-games-test",
+    "keyword": "Feature",
+    "uri": "virginhomepage.feature"
+  }
+]
