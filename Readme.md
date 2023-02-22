@@ -1,5 +1,12 @@
  # Cucumber-BDD-Automation-Framework
-Behaviour Driven Development Cucumber - Selenium based automation framework including extent reports.
+ 
+Behaviour Driven Development Cucumber - Selenium based automation framework including extent reports with IntelliJ IDE using Java
+
+Tools and Technology:
+Selenium , Cucumber, Junit, Page object model with page factory.
+
+Language: 
+Java
 
 	This framework contains sample code containing:
 
@@ -26,6 +33,9 @@ Add extentreports, log4j dependencies in pom.xml:
  
 
 	Directory structure:
+
+In src there are two packages main and test. main package contains browserfactory, logs,pages,propertyreader,screenshots,utility and test package contains
+cucumber and resources package. 
 
  ![quickstart](https://user-images.githubusercontent.com/114695517/220760845-0606ad2c-bc5b-45f1-9e0c-a241fa0c2102.png)
 
