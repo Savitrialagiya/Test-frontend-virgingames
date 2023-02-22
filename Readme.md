@@ -6,7 +6,8 @@ Behaviour Driven Development Cucumber - Selenium based automation framework incl
 •	Login scenario with valid credentials and for Negative Testing Login scenario with invalid credentials
 •	Use this link to get the dependencies - https://mvnrepository.com/
 	See configuration in "pom.xml" file
- 
+ ![Maven build](https://user-images.githubusercontent.com/114695517/220752257-f6e81ecc-f0b1-41f1-a6e2-83a0fb407a87.png)
+
 Add junit, selenium-java, Webdrivermanager, guava, commons-io dependencies in pom.xml:
  
 Add cucumber-junit, cucumber-java, cucumber-core , org.apache.poi , cucumber-extentsreport dependencies in pom.xml:
